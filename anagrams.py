@@ -12,13 +12,13 @@ for an arbitrary list of strings.
 # Give credit where credit is due.
 __author__ = "Mavrick Watts with Chris Warren and study group"
 
-import sys
+import sys 
 
 
 def alphabetize(string):
     """Returns alphabetized version of the string."""
     return "".join(sorted(string.lower()))
-
+ 
 
 def find_anagrams(words):
     """
